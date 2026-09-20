@@ -1,0 +1,26 @@
+[
+  {
+    "schema_version": "1.0",
+    "jd_id": "JD001",
+    "company": "Google",
+    "role": "Frontend Developer",
+    "skills": [
+      { "skill": "React", "importance": "high" },
+      { "skill": "TypeScript", "importance": "high" },
+      { "skill": "CSS", "importance": "medium" }
+    ],
+    "jd_chunks": []
+  },
+  {
+    "schema_version": "1.0",
+    "jd_id": "JD002",
+    "company": "Microsoft",
+    "role": "Backend Engineer",
+    "skills": [
+      { "skill": "Python", "importance": "high" },
+      { "skill": "FastAPI", "importance": "medium" },
+      { "skill": "SQL", "importance": "high" }
+    ],
+    "jd_chunks": []
+  }
+]
