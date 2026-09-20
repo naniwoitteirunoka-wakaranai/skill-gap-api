@@ -1,19 +1,10 @@
-import json
-from pathlib import Path
+import os
+import requests
 
-DATA = Path(__file__).parent.parent / "mock" / "students.json"
+T2_URL = os.getenv("T2_URL")
 
-
-def get_students():
-    with open(DATA, encoding="utf-8") as f:
-        return json.load(f)
-
-
-def get_student(student_id):
-    students = get_students()
-
-    for student in students:
-        if student["student_id"] == student_id:
-            return student
-
-    return None
+# Fetch student from Neha's microservice
+def get_student(student_id: str):
+    response = requests.get(f"{T2_URL}/student/{student_id}", timeout=15)
+    response.raise_for_status()
+    return response.json()
