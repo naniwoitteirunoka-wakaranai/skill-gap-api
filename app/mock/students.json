@@ -1,0 +1,30 @@
+[
+  {
+    "schema_version": "1.0",
+    "student_id": "STU001",
+    "name": "Alice",
+    "sources": [],
+    "projects": [],
+    "certifications": [],
+    "coding_stats": [],
+    "skills": [
+      { "skill": "React", "source": "github", "confidence": 0.92 },
+      { "skill": "CSS", "source": "resume", "confidence": 0.88 },
+      { "skill": "JavaScript", "source": "github", "confidence": 0.9 }
+    ]
+  },
+  {
+    "schema_version": "1.0",
+    "student_id": "STU002",
+    "name": "Bob",
+    "sources": [],
+    "projects": [],
+    "certifications": [],
+    "coding_stats": [],
+    "skills": [
+      { "skill": "Python", "source": "github", "confidence": 0.95 },
+      { "skill": "FastAPI", "source": "github", "confidence": 0.86 },
+      { "skill": "SQL", "source": "resume", "confidence": 0.9 }
+    ]
+  }
+]
